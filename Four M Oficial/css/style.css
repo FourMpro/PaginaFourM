@@ -5,17 +5,29 @@ html {
 
 body {
     margin:0;
-    background-color: #ffc300 ;
+    background: linear-gradient(to bottom , #d7ced4 60%, #ffffc6) fixed;
+    text-align: center;
+    font-size:24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-#Logobaner {
-    position: absolute;
-    top: 1%;
-    left: 43%;
-    margin: 0.5%;
-    width: 0%;
+.texto {
+    text-align: left;
+}
+
+#fondobanner {
+    position: fixed;
+    background-color: #ffffff;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#logobanner2 {
+    position: right;
+    margin: 4%;
+    width: 15%;
     height: auto;
-    
 }
 
 .text {
@@ -25,15 +37,9 @@ body {
     text-shadow: 1px 1px 1px black;
 }
 
-header h1 {
-    font-size: 4rem;
-    text-align: center;
-}
-
 .container {
     width: 300px;
     margin: 0 auto;
-    
 }
 
 section article {
@@ -42,9 +48,8 @@ section article {
     margin: 1rem 0;
     border-radius: 0.5rem;
     padding: 0.25rem 0;
-    cursor: pointer;
+    
 }
-
 section article:hover {
     box-shadow: 0  0.1rem  0.4rem  rgba(0 , 0 , 0 , 0.3);
 }
