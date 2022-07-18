@@ -1,6 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
 html {
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Roboto', sans-serif;
+    height: 100%;
+}
+
+#fondobanner {
+    position: fixed;
+    background-color: #000000;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#logoBanner{
+    position: relative;
+    margin: 0.5%;
+    width: 20%;
+    height: auto;
+    padding: 1%;
 }
 
 body {
@@ -8,38 +25,68 @@ body {
     background: linear-gradient(to bottom , #d7ced4 60%, #ffffc6) fixed;
     text-align: center;
     font-size:24px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
+
+#contenedor {
+    min-height: 100%;
+    position: relative;
+}
+
+#cuerpo {
+    padding:10px;
+    padding-bottom: 150px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #000000;
+    border-radius: 20px;
+}
+
+#cuerpo {
+    background: linear-gradient(to bottom , #0000002c 60%, #ffffc6) fixed;
+    padding:10px;
+    padding-bottom: 150px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #000000;
+    border-radius: 20px;
+}
+
+    p {
+        font-family: 'Inter', sans-serif;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 2%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    hr {
+        height: 3px;
+        background-color: #000000;
+        width: 70%;
+        border-radius: 50px;
+    }
 
 .texto {
-    text-align: left;
-}
-
-#fondobanner {
-    position: fixed;
-    background-color: #ffffff;
-    top: 0;
-    left: 0;
-    width: 100%;
-}
-
-#logobanner2 {
-    position: right;
-    margin: 4%;
-    width: 15%;
-    height: auto;
+    text-align: center;
 }
 
 .text {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Inter', sans-serif;
     text-align: left;
     text-decoration: dotted;
     text-shadow: 1px 1px 1px black;
 }
 
 .container {
-    width: 300px;
+    width: 30%;
+    height: auto;
+    padding: 20px;
     margin: 0 auto;
+    display: flexbox;
 }
 
 section article {
@@ -58,11 +105,20 @@ section article h2, section article p {
     margin: 1rem;
 }
 
+article img {
+    border-radius: 10px;
+}
+
+.textoDesc {
+    font-size: 80%;
+    text-align: justify;
+}
 
 footer {
     background-color: #000000;
     padding: 3rem;
     color:#fff;
+    width: auto;
 }
 
 footer section {
@@ -79,7 +135,7 @@ footer a {
     text-decoration: none ;
 }
 
-footer a:hover {
+.textoFooter:hover {
     color: #ff5733 ;
 }
 
