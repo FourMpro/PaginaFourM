@@ -22,7 +22,7 @@ html {
 
 body {
     margin:0;
-    background: linear-gradient(to bottom , #d7ced4 60%, #ffffc6) fixed;
+    background: linear-gradient(to bottom , #ffffffc1 60%, #a6a6a6) fixed;
     text-align: center;
     font-size:24px;
     font-family: 'Inter', sans-serif;
@@ -40,19 +40,17 @@ body {
     margin-left: 10%;
     margin-right: 10%;
     color: #000000;
-    border-radius: 20px;
 }
 
-#cuerpo {
-    background: linear-gradient(to bottom , #0000002c 60%, #ffffc6) fixed;
-    padding:10px;
-    padding-bottom: 150px;
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
+#cuerpo2 {
+    background: linear-gradient(to bottom , #000000c1 60%, #000000) fixed;
+    width: 100%;
     color: #000000;
-    border-radius: 20px;
 }
+
+    #h2coso {
+        color: #fff;
+    }
 
     p {
         font-family: 'Inter', sans-serif;
