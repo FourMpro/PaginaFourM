@@ -42,6 +42,18 @@ body {
     color: #000000;
 }
 
+    #imgCodigo{
+        width: 45%;
+        border: 2px;
+        border-radius: 10px;
+        background-color: #000000;
+        border: 5px solid rgb(0, 0, 0);
+    }
+
+    #imgCodigo:hover {
+        box-shadow: 0  0.1rem  0.4rem  rgba(0, 0, 0, 0.515);
+    }
+
 #cuerpo2 {
     background: linear-gradient(to bottom , #000000c1 60%, #000000) fixed;
     width: 100%;
